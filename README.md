@@ -11,3 +11,4 @@ Powershell script to create a drive mapping GPO from available shares on file se
 2. Run the script
 - Run this script **on the Hyper-V host**
 - Follow instructions provided by the script. When prompted to enter the backup location, include the folder with the backup GUID (ie: C:\GPOs\\{25da2714-bec6-4644-9f76-100010ace49b} )
+- When finished, the GPO will automatically be linked to the root of the domain. You may move this link as needed, or edit the New-GPLink target on like 79 if integrating with other scripts
